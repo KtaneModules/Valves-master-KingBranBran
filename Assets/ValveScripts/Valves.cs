@@ -324,7 +324,7 @@ public class ValvesScript : MonoBehaviour
             transform.localPosition = new Vector3(x, y, z);
             yield return new WaitForSeconds(0.01f);
         }
-        valveAudio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, valve.transform;
+        valveAudio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, valve.transform);
         valve.AddInteractionPunch();
         animationInProgress = false;
     }
