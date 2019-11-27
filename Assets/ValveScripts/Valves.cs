@@ -5,9 +5,8 @@ using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class ValvesScript : MonoBehaviour
-{
-    public KMBombModule module;
+public class Valves : MonoBehaviour {
+	public KMBombModule module;
 
     public KMBombInfo info;
 
@@ -313,6 +312,7 @@ public class ValvesScript : MonoBehaviour
     private IEnumerator ButtonDownAnimation(int valveNumber)
     {
         animationInProgress = true;
+		DebugLog("valveNumber: {0}", valveNumber);
         KMSelectable valve = valves[valveNumber];
         for (int i = 0; i < 8; i++)
         {
