@@ -101,12 +101,13 @@ public class Valves : MonoBehaviour {
     private void Awake()
     {
         valveMatNum = Random.Range(0, 2);
-        valvesColorNum = new int[3]
-        {
-            Random.Range(0, 2),
-            Random.Range(0, 2),
-            Random.Range(0, 2)
-        };
+        // valvesColorNum = new int[3]
+        // {
+        //     Random.Range(0, 2),
+        //     Random.Range(0, 2),
+        //     Random.Range(0, 2)
+        // };
+        valvesColorNum = new[] {1, 0, 0};
     }
 
     private void Start()
@@ -199,7 +200,7 @@ public class Valves : MonoBehaviour {
                 while (num5 == 0 && num3 < 100)
                 {
                     DebugLog("No positions are matching. Move {0} a space.", (!flag) ? "up" : "down");
-                    currentSolutionIndex += (flag ? 1 : (-1));
+                    currentSolutionIndex = (currentSolutionIndex + (flag ? 1 : (-1)) + 36) % 36;
                     num5 = (from ix in Enumerable.Range(0, 3)
                             where currentSolution[ix] == table[currentSolutionIndex][ix]
                             select ix).Count();
