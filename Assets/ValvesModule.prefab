@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4109423493157674}
   - component: {fileID: 33865313025755650}
   - component: {fileID: 23999599905303012}
+  - component: {fileID: 114806617060635078}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -75,6 +76,7 @@ GameObject:
   - component: {fileID: 4445783548435140}
   - component: {fileID: 33555925591106148}
   - component: {fileID: 23931260721641122}
+  - component: {fileID: 114209508152549538}
   m_Layer: 0
   m_Name: Valve1
   m_TagString: Untagged
@@ -122,6 +124,7 @@ GameObject:
   - component: {fileID: 4453724839007586}
   - component: {fileID: 33568766878358544}
   - component: {fileID: 23777475037027482}
+  - component: {fileID: 114772229706099462}
   m_Layer: 0
   m_Name: ThingInValve1
   m_TagString: Untagged
@@ -139,6 +142,7 @@ GameObject:
   - component: {fileID: 4762552963138448}
   - component: {fileID: 33401224008909230}
   - component: {fileID: 23428931405120054}
+  - component: {fileID: 114264938534919822}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -156,6 +160,7 @@ GameObject:
   - component: {fileID: 4471575721260994}
   - component: {fileID: 33235623031692146}
   - component: {fileID: 23498781206963362}
+  - component: {fileID: 114402595639353348}
   m_Layer: 0
   m_Name: Component_PuzzleBackground
   m_TagString: Untagged
@@ -173,6 +178,7 @@ GameObject:
   - component: {fileID: 4642131721105452}
   - component: {fileID: 33806648620363690}
   - component: {fileID: 23868446888460132}
+  - component: {fileID: 114330955712431962}
   m_Layer: 0
   m_Name: Valve3
   m_TagString: Untagged
@@ -222,6 +228,7 @@ GameObject:
   - component: {fileID: 4841721667038410}
   - component: {fileID: 33139333899392236}
   - component: {fileID: 23864160025438438}
+  - component: {fileID: 114015930954429112}
   m_Layer: 0
   m_Name: ThingInValve3
   m_TagString: Untagged
@@ -239,6 +246,7 @@ GameObject:
   - component: {fileID: 4488450012935734}
   - component: {fileID: 33400487322989160}
   - component: {fileID: 23511528511649766}
+  - component: {fileID: 114378360214541998}
   m_Layer: 0
   m_Name: Valve2
   m_TagString: Untagged
@@ -273,6 +281,7 @@ GameObject:
   - component: {fileID: 4688410413544700}
   - component: {fileID: 33767788829741458}
   - component: {fileID: 23174843133665116}
+  - component: {fileID: 114910364383236316}
   m_Layer: 0
   m_Name: ThingInValve2
   m_TagString: Untagged
@@ -354,6 +363,7 @@ GameObject:
   - component: {fileID: 4441485877267862}
   - component: {fileID: 33913957020232918}
   - component: {fileID: 23776045343265904}
+  - component: {fileID: 114607107077381902}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -1122,6 +1132,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1973296750960752}
   m_Mesh: {fileID: 4300000, guid: f8fa4663c7d2bb7419bf710a93be94af, type: 3}
+--- !u!114 &114015930954429112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571189534656178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Standard
 --- !u!114 &114031224972285150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1182,6 +1205,32 @@ MonoBehaviour:
   m_Script: {fileID: -1675560866, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114209508152549538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1238875373049590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Standard
+--- !u!114 &114264938534919822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455574547137910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Standard
 --- !u!114 &114330760318483752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1195,6 +1244,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HighlightScale: {x: 1, y: 1, z: 1}
   OutlineAmount: 0
+--- !u!114 &114330955712431962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1542186178483974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Standard
 --- !u!114 &114333000257809636
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1208,6 +1270,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HighlightScale: {x: 1, y: 1, z: 1}
   OutlineAmount: 0
+--- !u!114 &114378360214541998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1695628154146456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Standard
+--- !u!114 &114402595639353348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512195372483226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - KT/Mobile/Diffuse
 --- !u!114 &114501509306514998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1265,6 +1353,19 @@ MonoBehaviour:
   AllowSelectionWrapY: 0
   ForceSelectionHighlight: 0
   ForceInteractionHighlight: 0
+--- !u!114 &114607107077381902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1973296750960752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Standard
 --- !u!114 &114668648353325918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1301,6 +1402,19 @@ MonoBehaviour:
   m_Script: {fileID: 2144496390, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114772229706099462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1433229114119918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Standard
 --- !u!114 &114779813329959280
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1336,3 +1450,29 @@ MonoBehaviour:
   valveColorOptions:
   - {fileID: 2100000, guid: 54e45d4f4495c7241970054ac4819d8c, type: 2}
   - {fileID: 2100000, guid: 8ddb2285bf3a75940a9b6672772ae4a9, type: 2}
+--- !u!114 &114806617060635078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1010157528977430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Standard
+--- !u!114 &114910364383236316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1772086664759512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - Standard

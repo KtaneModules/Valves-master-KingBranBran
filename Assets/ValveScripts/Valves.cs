@@ -101,13 +101,12 @@ public class Valves : MonoBehaviour {
     private void Awake()
     {
         valveMatNum = Random.Range(0, 2);
-        // valvesColorNum = new int[3]
-        // {
-        //     Random.Range(0, 2),
-        //     Random.Range(0, 2),
-        //     Random.Range(0, 2)
-        // };
-        valvesColorNum = new[] {1, 0, 0};
+        valvesColorNum = new int[3]
+        {
+            Random.Range(0, 2),
+            Random.Range(0, 2),
+            Random.Range(0, 2)
+        };
     }
 
     private void Start()
